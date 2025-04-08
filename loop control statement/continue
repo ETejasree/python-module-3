@@ -1,0 +1,13 @@
+# List of scores (some invalid values)
+scores = [85, 92, -1, 78, 0, 105, 67, 88]
+
+print("Valid scores (between 1 and 100):")
+
+for score in scores:
+    # Skip invalid scores
+    if score <= 0 or score > 100:
+        print(f"Skipping invalid score: {score}")
+        continue
+
+    # Process valid score
+    print(f"Processing score: {score}")

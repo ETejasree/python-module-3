@@ -1,0 +1,19 @@
+# Notification types
+notifications = ["Email", "SMS", "Push", "In-App"]
+
+print("Starting notification system...\n")
+
+for method in notifications:
+    if method == "SMS":
+        # This feature is coming soon
+        print("SMS sending is not implemented yet.")
+        pass  # placeholder for future implementation
+    elif method == "Email":
+        print("Sending Email notification...")
+        # code to send email (simulated here)
+    elif method == "Push":
+        print("Sending Push notification...")
+    elif method == "In-App":
+        print("Showing In-App notification...")
+
+print("\nNotification loop completed.")

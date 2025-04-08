@@ -1,0 +1,11 @@
+has_ticket = "true"
+has_id = "true"
+
+if has_ticket == 'true' and has_id == 'true':
+    print("You can enter the concert.")
+elif has_ticket != 'true' and has_id == 'true':
+    print("You need a ticket to enter.")
+elif has_ticket == 'true' and has_id != 'true':
+    print("You need to show your ID.")
+else:
+    print("Sorry, entry denied!")
